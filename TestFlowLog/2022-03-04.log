@@ -1,0 +1,502 @@
+[2022-03-04 00:00:31.7037] [INFO] ValidStation=R1190 
+[2022-03-04 00:00:31.7237] [INFO] CheckRoute Pass 
+[2022-03-04 00:00:37.6031] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304120034][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 00:00:37.6031] [WARN] Upload:SUCCESS 
+[2022-03-04 00:00:42.9958] [INFO] ValidStation=R1190 
+[2022-03-04 00:00:42.9958] [INFO] CheckRoute Pass 
+[2022-03-04 00:01:03.8989] [INFO] ValidStation=R1190 
+[2022-03-04 02:17:39.6869] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304021731][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:17:39.7078] [WARN] Upload:SUCCESS 
+[2022-03-04 02:17:45.8878] [INFO] ValidStation=R1190 
+[2022-03-04 02:17:45.8878] [ERROR] OkR1190 
+[2022-03-04 02:17:45.8878] [ERROR] OkR1190 
+[2022-03-04 02:17:45.8919] [INFO] ErrorReason= 
+[2022-03-04 02:17:45.8919] [INFO] ResultDetail=OkR1190 
+[2022-03-04 02:17:45.8919] [INFO] StatusResult=Ok 
+[2022-03-04 02:18:15.9063] [INFO] ValidStation=R1190 
+[2022-03-04 02:19:14.8619] [INFO] ValidStation=R1190 
+[2022-03-04 02:20:21.2875] [INFO] ValidStation=R1190 
+[2022-03-04 02:21:24.6752] [INFO] ValidStation=R1190 
+[2022-03-04 02:22:01.7890] [INFO] ValidStation=R1190 
+[2022-03-04 02:22:03.6562] [INFO] CheckRoute Pass 
+[2022-03-04 02:22:15.2995] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304022211][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:22:15.2995] [WARN] Upload:SUCCESS 
+[2022-03-04 02:22:35.8006] [INFO] ValidStation=R1190 
+[2022-03-04 02:22:38.5931] [INFO] CheckRoute Pass 
+[2022-03-04 02:23:10.7583] [INFO] ValidStation=R1190 
+[2022-03-04 02:23:11.9735] [INFO] CheckRoute Pass 
+[2022-03-04 02:25:09.8054] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304022503][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:25:09.8377] [WARN] Upload:SUCCESS 
+[2022-03-04 02:25:20.0332] [INFO] ValidStation=R1190 
+[2022-03-04 02:25:20.8602] [INFO] CheckRoute Pass 
+[2022-03-04 02:33:59.5506] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304023350][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:33:59.5932] [WARN] Upload:SUCCESS 
+[2022-03-04 02:34:07.8104] [INFO] ValidStation=R1190 
+[2022-03-04 02:34:07.8104] [INFO] CheckRoute Pass 
+[2022-03-04 02:42:21.3105] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304024212][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:42:21.4037] [WARN] Upload:SUCCESS 
+[2022-03-04 02:42:27.5219] [INFO] ValidStation=R1190 
+[2022-03-04 02:42:27.5219] [INFO] CheckRoute Pass 
+[2022-03-04 02:45:32.6986] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304024525][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:45:32.7720] [WARN] Upload:SUCCESS 
+[2022-03-04 02:45:38.9076] [INFO] ValidStation=R1190 
+[2022-03-04 02:45:38.9076] [INFO] CheckRoute Pass 
+[2022-03-04 02:46:56.0510] [INFO] ValidStation=R1190 
+[2022-03-04 02:46:56.1053] [INFO] CheckRoute Pass 
+[2022-03-04 02:47:02.7776] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304024658][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 02:47:02.7776] [WARN] Upload:SUCCESS 
+[2022-03-04 02:47:16.5864] [INFO] ValidStation=R1190 
+[2022-03-04 02:47:16.5874] [INFO] CheckRoute Pass 
+[2022-03-04 02:47:24.8885] [INFO] ValidStation=R1190 
+[2022-03-04 03:03:51.9530] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304030147][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 03:03:51.9710] [WARN] Upload:SUCCESS 
+[2022-03-04 03:03:56.1656] [INFO] ValidStation=R1190 
+[2022-03-04 03:03:56.1656] [INFO] CheckRoute Pass 
+[2022-03-04 03:05:02.7576] [INFO] ValidStation=R1190 
+[2022-03-04 03:05:02.7766] [INFO] CheckRoute Pass 
+[2022-03-04 03:05:05.1962] [ERROR] System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无效的命名空间特性: xmlns:xmlns=""。
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(String name, String ns, Object o, Boolean writePrefixed, XmlSerializerNamespaces xmlns)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterLog.Write8_Log(String n, String ns, Log o, Boolean isNullable, Boolean needType)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterLog.Write9_Log(Object o)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o, XmlSerializerNamespaces namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 247
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 150 
+[2022-03-04 03:05:05.1962] [ERROR] System.InvalidOperationException: 生成 XML 文档时出错。 ---> System.InvalidOperationException: 无效的命名空间特性: xmlns:xmlns=""。
+   在 System.Xml.Serialization.XmlSerializationWriter.WriteStartElement(String name, String ns, Object o, Boolean writePrefixed, XmlSerializerNamespaces xmlns)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterLog.Write8_Log(String n, String ns, Log o, Boolean isNullable, Boolean needType)
+   在 Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationWriterLog.Write9_Log(Object o)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Xml.Serialization.XmlSerializer.Serialize(XmlWriter xmlWriter, Object o, XmlSerializerNamespaces namespaces, String encodingStyle, String id)
+   在 System.Xml.Serialization.XmlSerializer.Serialize(Stream stream, Object o, XmlSerializerNamespaces namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 247
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 150 
+[2022-03-04 03:14:14.5515] [INFO] ValidStation=R1190 
+[2022-03-04 03:14:14.5725] [INFO] CheckRoute Pass 
+[2022-03-04 03:16:13.3676] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:13.3676] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:17.0252] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:17.0252] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:18.4342] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:18.4342] [ERROR] System.Xml.XmlException: 名称不能以“ ”字符(十六进制值 0x20)开头。
+   在 System.Xml.XmlConvert.VerifyNCName(String name, ExceptionType exceptionType)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:43.9162] [ERROR] System.FormatException: 字符串“”不是有效的 Uri 值。
+   在 System.Xml.XmlConvert.ToUri(String s)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:16:43.9162] [ERROR] System.FormatException: 字符串“”不是有效的 Uri 值。
+   在 System.Xml.XmlConvert.ToUri(String s)
+   在 System.Xml.Serialization.XmlSerializerNamespaces.Add(String prefix, String ns)
+   在 System.Xml.Serialization.XmlSerializerNamespaces..ctor(XmlQualifiedName[] namespaces)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 241
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 151 
+[2022-03-04 03:32:16.4930] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304033210][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 03:32:16.5140] [WARN] Upload:SUCCESS 
+[2022-03-04 03:32:21.7060] [INFO] ValidStation=R1190 
+[2022-03-04 03:32:21.7060] [INFO] CheckRoute Pass 
+[2022-03-04 03:32:29.4953] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304033225][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 03:32:29.4953] [WARN] Upload:SUCCESS 
+[2022-03-04 03:32:33.7757] [INFO] ValidStation=R1190 
+[2022-03-04 03:32:33.7757] [INFO] CheckRoute Pass 
+[2022-03-04 03:42:27.0149] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304034041][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 03:42:27.0359] [WARN] Upload:SUCCESS 
+[2022-03-04 03:42:32.7154] [INFO] ValidStation=R1190 
+[2022-03-04 03:42:32.7154] [INFO] CheckRoute Pass 
+[2022-03-04 04:05:12.7624] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304040505][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 04:05:12.7814] [WARN] Upload:SUCCESS 
+[2022-03-04 04:05:17.4861] [INFO] ValidStation=R1190 
+[2022-03-04 04:05:17.4861] [INFO] CheckRoute Pass 
+[2022-03-04 04:08:46.6920] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304040826][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 04:08:46.7160] [WARN] Upload:SUCCESS 
+[2022-03-04 04:08:51.4218] [INFO] ValidStation=R2200 
+[2022-03-04 04:10:10.5835] [INFO] ValidStation=R2200 
+[2022-03-04 04:10:10.5835] [INFO] CheckRoute Pass 
+[2022-03-04 04:10:21.8798] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FATP_SWDL\20220304_xml\[20220304041015][1WMHH81ZZU9011][Miramar][H_FATP_SWDL][PASS].xml 
+[2022-03-04 04:10:21.8798] [WARN] Upload:SUCCESS 
+[2022-03-04 04:10:28.6747] [INFO] ValidStation=R2200 
+[2022-03-04 04:10:28.6747] [INFO] CheckRoute Pass 
+[2022-03-04 04:11:13.1834] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FATP_SWDL\20220304_xml\[20220304041038][1WMHH81ZZU9011][Miramar][H_FATP_SWDL][PASS].xml 
+[2022-03-04 04:11:13.1834] [WARN] Upload:SUCCESS 
+[2022-03-04 04:11:23.4398] [INFO] ValidStation=R2200 
+[2022-03-04 04:11:23.4398] [INFO] CheckRoute Pass 
+[2022-03-04 04:52:32.2269] [INFO] ValidStation=R2210 
+[2022-03-04 04:52:49.0153] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304045238][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 04:52:49.0153] [WARN] Upload:SUCCESS 
+[2022-03-04 04:52:57.8111] [INFO] ValidStation=R2210 
+[2022-03-04 04:53:15.1481] [INFO] ValidStation=R2210 
+[2022-03-04 04:53:15.1491] [INFO] CheckRoute Pass 
+[2022-03-04 04:53:22.4378] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_QT\20220304_xml\[20220304045318][1WMHH81ZZU9011][Miramar][H_QT][PASS].xml 
+[2022-03-04 04:53:22.4378] [WARN] Upload:SUCCESS 
+[2022-03-04 04:53:27.7262] [INFO] ValidStation=R2210 
+[2022-03-04 04:53:27.7262] [INFO] CheckRoute Pass 
+[2022-03-04 04:58:59.3585] [INFO] ValidStation=R1190 
+[2022-03-04 04:58:59.3585] [INFO] CheckRoute Pass 
+[2022-03-04 04:59:06.2459] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304045902][1WMHH81ZZV9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-04 04:59:06.2459] [WARN] Upload:SUCCESS 
+[2022-03-04 04:59:11.6585] [INFO] ValidStation=R2200 
+[2022-03-04 04:59:20.1626] [INFO] ValidStation=R2200 
+[2022-03-04 04:59:20.1626] [INFO] CheckRoute Pass 
+[2022-03-04 04:59:30.7227] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FATP_SWDL\20220304_xml\[20220304045923][1WMHH81ZZV9011][Miramar][H_FATP_SWDL][PASS].xml 
+[2022-03-04 04:59:30.7227] [WARN] Upload:SUCCESS 
+[2022-03-04 04:59:36.1428] [INFO] ValidStation=R2200 
+[2022-03-04 04:59:36.1428] [INFO] CheckRoute Pass 
+[2022-03-04 05:18:27.9998] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FATP_SWDL\20220304_xml\[20220304051758][1WMHH81ZZV9011][Miramar][H_FATP_SWDL][PASS].xml 
+[2022-03-04 05:18:28.0218] [WARN] Upload:SUCCESS 
+[2022-03-04 05:18:34.2184] [INFO] ValidStation=R2210 
+[2022-03-04 05:18:49.5359] [INFO] ValidStation=R2210 
+[2022-03-04 05:18:49.5359] [INFO] CheckRoute Pass 
+[2022-03-04 05:19:05.9062] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_QT\20220304_xml\[20220304051855][1WMHH81ZZV9011][Miramar][H_QT][PASS].xml 
+[2022-03-04 05:19:05.9062] [WARN] Upload:SUCCESS 
+[2022-03-04 05:19:12.2121] [INFO] ValidStation=R2140 
+[2022-03-04 05:19:20.0126] [INFO] ValidStation=R2140 
+[2022-03-04 05:19:20.0126] [INFO] CheckRoute Pass 
+[2022-03-04 05:19:25.7848] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_BURN_IN\20220304_xml\[20220304051922][1WMHH81ZZV9011][Miramar][H_BURN_IN][PASS].xml 
+[2022-03-04 05:19:25.7848] [WARN] Upload:SUCCESS 
+[2022-03-04 05:19:30.6003] [INFO] ValidStation=R2090 
+[2022-03-04 05:19:42.4205] [INFO] ValidStation=R2090 
+[2022-03-04 05:19:42.4205] [INFO] CheckRoute Pass 
+[2022-03-04 05:19:50.1980] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FINAL_OPTICAL\20220304_xml\[20220304051946][1WMHH81ZZV9011][Miramar][H_FINAL_OPTICAL][PASS].xml 
+[2022-03-04 05:19:50.1980] [WARN] Upload:SUCCESS 
+[2022-03-04 05:19:53.9733] [INFO] ValidStation=R2100 
+[2022-03-04 05:20:00.7709] [INFO] ValidStation=R2100 
+[2022-03-04 05:20:00.7709] [INFO] CheckRoute Pass 
+[2022-03-04 05:20:06.1287] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_FOVI\20220304_xml\[20220304052003][1WMHH81ZZV9011][Miramar][H_FOVI][PASS].xml 
+[2022-03-04 05:20:06.1287] [WARN] Upload:SUCCESS 
+[2022-03-04 05:20:11.6387] [INFO] ValidStation=R2220 
+[2022-03-04 05:20:18.9261] [INFO] ValidStation=R2220 
+[2022-03-04 05:20:18.9261] [INFO] CheckRoute Pass 
+[2022-03-04 05:20:23.7002] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_CAMERA\20220304_xml\[20220304052021][1WMHH81ZZV9011][Miramar][H_CAMERA][PASS].xml 
+[2022-03-04 05:20:23.7009] [WARN] Upload:SUCCESS 
+[2022-03-04 05:20:28.9815] [INFO] ValidStation=R2230 
+[2022-03-04 05:20:36.3400] [INFO] ValidStation=R2230 
+[2022-03-04 05:20:36.3400] [INFO] CheckRoute Pass 
+[2022-03-04 05:20:41.1478] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_RF\20220304_xml\[20220304052038][1WMHH81ZZV9011][Miramar][H_RF][PASS].xml 
+[2022-03-04 05:20:41.1478] [WARN] Upload:SUCCESS 
+[2022-03-04 05:20:48.5247] [INFO] ValidStation=R1020 
+[2022-03-04 05:20:48.5307] [ERROR] OkR1020 
+[2022-03-04 05:20:48.5307] [ERROR] OkR1020 
+[2022-03-04 05:20:48.5307] [INFO] ErrorReason= 
+[2022-03-04 05:20:48.5307] [INFO] ResultDetail=OkR1020 
+[2022-03-04 05:20:48.5307] [INFO] StatusResult=Ok 
+[2022-03-04 05:21:18.1188] [INFO] ValidStation=R1020 
+[2022-03-04 05:21:18.1188] [ERROR] OkR1020 
+[2022-03-04 05:21:18.1188] [ERROR] OkR1020 
+[2022-03-04 05:21:18.1188] [INFO] ErrorReason= 
+[2022-03-04 05:21:18.1188] [INFO] ResultDetail=OkR1020 
+[2022-03-04 05:21:18.1188] [INFO] StatusResult=Ok 
+[2022-03-04 05:23:14.7839] [INFO] ValidStation=R1020 
+[2022-03-04 05:23:14.7839] [ERROR] OkR1020 
+[2022-03-04 05:23:14.7839] [ERROR] OkR1020 
+[2022-03-04 05:23:14.7839] [INFO] ErrorReason= 
+[2022-03-04 05:23:14.7839] [INFO] ResultDetail=OkR1020 
+[2022-03-04 05:23:14.7839] [INFO] StatusResult=Ok 
+[2022-03-04 05:23:58.9693] [INFO] ValidStation=R2140 
+[2022-03-04 05:24:08.2677] [INFO] ValidStation=R2140 
+[2022-03-04 05:24:08.2677] [INFO] CheckRoute Pass 
+[2022-03-04 05:24:13.0445] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_BURN_IN\20220304_xml\[20220304052410][1WMHH81ZZU9011][Miramar][H_BURN_IN][PASS].xml 
+[2022-03-04 05:24:13.0445] [WARN] Upload:SUCCESS 
+[2022-03-04 05:24:17.4065] [INFO] ValidStation=R2090 
+[2022-03-04 05:24:24.0963] [INFO] ValidStation=R2090 
+[2022-03-04 05:24:24.0963] [INFO] CheckRoute Pass 
+[2022-03-04 05:46:15.5931] [INFO] ValidStation=R1020 
+[2022-03-04 05:46:15.6151] [ERROR] OkR1020 
+[2022-03-04 05:46:15.6151] [ERROR] OkR1020 
+[2022-03-04 05:46:15.6151] [INFO] ErrorReason= 
+[2022-03-04 05:46:15.6151] [INFO] ResultDetail=OkR1020 
+[2022-03-04 05:46:15.6151] [INFO] StatusResult=Ok 
+[2022-03-04 05:50:32.9695] [INFO] ValidStation=TSTD 
+[2022-03-04 05:50:32.9875] [INFO] CheckRoute Pass 
+[2022-03-04 05:50:49.8335] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_AUDIO\20220304_xml\[20220304055045][1WMHH81ZZV9011][Miramar][H_AUDIO][PASS].xml 
+[2022-03-04 05:50:49.8335] [WARN] Upload:SUCCESS 
+[2022-03-04 05:50:54.2186] [INFO] ValidStation=R2240 
+[2022-03-04 05:51:03.2278] [INFO] ValidStation=R2240 
+[2022-03-04 05:51:03.2278] [INFO] CheckRoute Pass 
+[2022-03-04 05:51:11.7236] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_OC_SWDL\20220304_xml\[20220304055108][1WMHH81ZZV9011][Miramar][H_OC_SWDL][PASS].xml 
+[2022-03-04 05:51:11.7236] [WARN] Upload:SUCCESS 
+[2022-03-04 05:51:17.6468] [INFO] ValidStation=R2170 
+[2022-03-04 05:51:28.7355] [INFO] ValidStation=R2170 
+[2022-03-04 05:52:36.0224] [INFO] ValidStation=R2170 
+[2022-03-04 05:54:02.9106] [INFO] ValidStation=R2170 
+[2022-03-04 05:56:20.0745] [INFO] ValidStation=R2170 
+[2022-03-04 05:56:52.5073] [INFO] ValidStation=R2180 
+[2022-03-04 05:57:02.3179] [INFO] ValidStation=R2180 
+[2022-03-04 05:57:02.3179] [INFO] CheckRoute Pass 
+[2022-03-04 05:57:08.6071] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_H_INSIDE_OUT_WRITE\20220304_xml\[20220304055704][1WMHH81ZZV9011][Miramar][H_INSIDE_OUT_WRITE][PASS].xml 
+[2022-03-04 05:57:08.6071] [WARN] Upload:SUCCESS 
+[2022-03-04 05:57:17.4406] [INFO] ValidStation=TSTJ 
+[2022-03-04 05:57:17.4406] [INFO] CheckRoute Pass 
+[2022-03-04 05:57:22.7639] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_P_PAIRING\20220304_xml\[20220304055719][1WMHH81ZZV9011][Miramar][P_PAIRING][PASS].xml 
+[2022-03-04 05:57:22.7639] [WARN] Upload:SUCCESS 
+[2022-03-04 05:57:35.0254] [INFO] ValidStation=R1030 
+[2022-03-04 05:57:35.0254] [ERROR] OkR1030 
+[2022-03-04 05:57:35.0254] [ERROR] OkR1030 
+[2022-03-04 05:57:35.0254] [INFO] ErrorReason= 
+[2022-03-04 05:57:35.0254] [INFO] ResultDetail=OkR1030 
+[2022-03-04 05:57:35.0254] [INFO] StatusResult=Ok 
+[2022-03-04 05:59:14.9190] [INFO] ValidStation=R4050 
+[2022-03-04 05:59:21.8385] [INFO] ValidStation=R4050 
+[2022-03-04 05:59:21.8385] [INFO] CheckRoute Pass 
+[2022-03-04 05:59:26.7577] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_P_PRELOAD\20220304_xml\[20220304055923][1WMHH81ZZV9011][Miramar][P_PRELOAD][PASS].xml 
+[2022-03-04 05:59:26.7577] [WARN] Upload:SUCCESS 
+[2022-03-04 05:59:33.6921] [INFO] ValidStation=TSTM 
+[2022-03-04 05:59:33.6921] [INFO] CheckRoute Pass 
+[2022-03-04 05:59:39.1260] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_P_GATEKEEPER\20220304_xml\[20220304055935][1WMHH81ZZV9011][Miramar][P_GATEKEEPER][PASS].xml 
+[2022-03-04 05:59:39.1260] [WARN] Upload:SUCCESS 
+[2022-03-04 05:59:46.5890] [INFO] ValidStation=COSMT 
+[2022-03-04 05:59:46.5890] [ERROR] OkCOSMT 
+[2022-03-04 05:59:46.5890] [ERROR] OkCOSMT 
+[2022-03-04 05:59:46.5890] [INFO] ErrorReason= 
+[2022-03-04 05:59:46.5890] [INFO] ResultDetail=OkCOSMT 
+[2022-03-04 05:59:46.5890] [INFO] StatusResult=Ok 
+[2022-03-04 06:33:02.9104] [INFO] ValidStation=R3060 
+[2022-03-04 06:33:02.9294] [INFO] CheckRoute Pass 
+[2022-03-04 06:33:10.3437] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304063306][1WMHCL5ZZZ9011][Rainier][C_CONTROLLER_DL][PASS].xml 
+[2022-03-04 06:33:10.3437] [WARN] Upload:SUCCESS 
+[2022-03-04 06:33:14.7260] [INFO] ValidStation=R3070 
+[2022-03-04 06:33:24.3242] [INFO] ValidStation=R3070 
+[2022-03-04 06:33:24.3242] [INFO] CheckRoute Pass 
+[2022-03-04 06:33:29.1339] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304063326][1WMHCL5ZZZ9011][Rainier][C_LED_HAPTICS][PASS].xml 
+[2022-03-04 06:33:29.1339] [WARN] Upload:SUCCESS 
+[2022-03-04 06:33:38.6548] [INFO] ValidStation=R3080 
+[2022-03-04 06:33:38.6548] [INFO] CheckRoute Pass 
+[2022-03-04 06:33:44.0626] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_RF_TEST\20220304_xml\[20220304063340][1WMHCL5ZZZ9011][Rainier][C_RF_TEST][PASS].xml 
+[2022-03-04 06:33:44.0626] [WARN] Upload:SUCCESS 
+[2022-03-04 06:33:49.3676] [INFO] ValidStation=R3080 
+[2022-03-04 06:33:49.3676] [INFO] CheckRoute Pass 
+[2022-03-04 06:33:59.1484] [INFO] ValidStation=R3080 
+[2022-03-04 06:33:59.1484] [INFO] CheckRoute Pass 
+[2022-03-04 06:34:06.9766] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_RF_TEST\20220304_xml\[20220304063404][1WMHCL5ZZZ9011][Rainier][C_RF_TEST][PASS].xml 
+[2022-03-04 06:34:06.9766] [WARN] Upload:SUCCESS 
+[2022-03-04 06:42:59.3935] [INFO] ValidStation=R3080 
+[2022-03-04 06:42:59.4145] [INFO] CheckRoute Pass 
+[2022-03-04 06:43:07.8532] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_RF_TEST\20220304_xml\[20220304064304][1WMHCL5ZZZ9011][Rainier][C_RF_TEST][PASS].xml 
+[2022-03-04 06:43:07.8532] [WARN] Upload:SUCCESS 
+[2022-03-04 06:43:12.2351] [INFO] ValidStation=R3090 
+[2022-03-04 06:43:20.7476] [INFO] ValidStation=R3090 
+[2022-03-04 06:43:20.7476] [INFO] CheckRoute Pass 
+[2022-03-04 06:43:25.1295] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_BUTTON_TRIGGER\20220304_xml\[20220304064322][1WMHCL5ZZZ9011][Rainier][C_BUTTON_TRIGGER][PASS].xml 
+[2022-03-04 06:43:25.1295] [WARN] Upload:SUCCESS 
+[2022-03-04 06:43:32.0788] [INFO] ValidStation=R3100 
+[2022-03-04 06:43:32.0818] [INFO] CheckRoute Pass 
+[2022-03-04 06:43:36.9880] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_IMU_CAL\20220304_xml\[20220304064334][1WMHCL5ZZZ9011][Rainier][C_IMU_CAL][PASS].xml 
+[2022-03-04 06:43:36.9880] [WARN] Upload:SUCCESS 
+[2022-03-04 06:43:47.4680] [INFO] ValidStation=R3110 
+[2022-03-04 06:43:47.4680] [INFO] CheckRoute Pass 
+[2022-03-04 06:43:52.7369] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_TURBOCAL\20220304_xml\[20220304064349][1WMHCL5ZZZ9011][Rainier][C_TURBOCAL][PASS].xml 
+[2022-03-04 06:43:52.7379] [WARN] Upload:SUCCESS 
+[2022-03-04 06:43:59.0214] [INFO] ValidStation=R3120 
+[2022-03-04 06:43:59.0214] [INFO] CheckRoute Pass 
+[2022-03-04 06:44:03.8563] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_FW_OTA\20220304_xml\[20220304064400][1WMHCL5ZZZ9011][Rainier][C_FW_OTA][PASS].xml 
+[2022-03-04 06:44:03.8563] [WARN] Upload:SUCCESS 
+[2022-03-04 06:44:13.5971] [INFO] ValidStation=TSTJ 
+[2022-03-04 06:44:23.8992] [INFO] ValidStation=TSTJ 
+[2022-03-04 06:44:35.7149] [INFO] ValidStation=TSTJ 
+[2022-03-04 06:56:25.7854] [INFO] ValidStation=FQA 
+[2022-03-04 06:56:25.7901] [ERROR] OkFQA 
+[2022-03-04 06:56:25.7901] [ERROR] OkFQA 
+[2022-03-04 06:56:25.7901] [INFO] ErrorReason= 
+[2022-03-04 06:56:25.7901] [INFO] ResultDetail=OkFQA 
+[2022-03-04 06:56:25.7901] [INFO] StatusResult=Ok 
+[2022-03-04 06:57:11.8171] [INFO] ValidStation=CLOSE 
+[2022-03-04 06:57:11.8201] [ERROR] OkCLOSE 
+[2022-03-04 06:57:11.8201] [ERROR] OkCLOSE 
+[2022-03-04 06:57:11.8201] [INFO] ErrorReason= 
+[2022-03-04 06:57:11.8201] [INFO] ResultDetail=OkCLOSE 
+[2022-03-04 06:57:11.8201] [INFO] StatusResult=Ok 
+[2022-03-04 06:57:49.1068] [INFO] ValidStation=CLOSE 
+[2022-03-04 06:57:49.1068] [ERROR] OkCLOSE 
+[2022-03-04 06:57:49.1068] [ERROR] OkCLOSE 
+[2022-03-04 06:57:49.1068] [INFO] ErrorReason= 
+[2022-03-04 06:57:49.1068] [INFO] ResultDetail=OkCLOSE 
+[2022-03-04 06:57:49.1068] [INFO] StatusResult=Ok 
+[2022-03-04 06:58:32.0430] [INFO] ValidStation=R3060 
+[2022-03-04 06:58:50.2207] [INFO] ValidStation=R3060 
+[2022-03-04 06:58:50.2207] [INFO] CheckRoute Pass 
+[2022-03-04 06:58:56.4498] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304065853][1WMHCL5ZZY9011][Rainier][C_CONTROLLER_DL][PASS].xml 
+[2022-03-04 06:58:56.4498] [WARN] Upload:SUCCESS 
+[2022-03-04 06:59:01.3132] [INFO] ValidStation=R3070 
+[2022-03-04 06:59:11.6327] [INFO] ValidStation=R3070 
+[2022-03-04 06:59:11.6327] [INFO] CheckRoute Pass 
+[2022-03-04 06:59:20.4131] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304065917][1WMHCL5ZZY9011][Rainier][C_LED_HAPTICS][FAIL].xml 
+[2022-03-04 06:59:20.4131] [WARN] Upload:SUCCESS 
+[2022-03-04 06:59:24.1826] [INFO] ValidStation=R3070 
+[2022-03-04 06:59:24.1826] [INFO] CheckRoute Pass 
+[2022-03-04 06:59:30.4662] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304065927][1WMHCL5ZZY9011][Rainier][C_LED_HAPTICS][FAIL].xml 
+[2022-03-04 06:59:30.4662] [WARN] Upload:SUCCESS 
+[2022-03-04 06:59:34.2393] [INFO] ValidStation=R3070 
+[2022-03-04 06:59:34.2423] [INFO] CheckRoute Pass 
+[2022-03-04 06:59:38.5096] [INFO] ValidStation=HOLD 
+[2022-03-04 06:59:38.5096] [ERROR] OkHOLD 
+[2022-03-04 06:59:38.5096] [ERROR] OkHOLD 
+[2022-03-04 06:59:38.5096] [INFO] ErrorReason= 
+[2022-03-04 06:59:38.5096] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 06:59:38.5096] [INFO] StatusResult=Ok 
+[2022-03-04 06:59:52.5757] [INFO] ValidStation=HOLD 
+[2022-03-04 06:59:52.5757] [ERROR] OkHOLD 
+[2022-03-04 06:59:52.5757] [ERROR] OkHOLD 
+[2022-03-04 06:59:52.5757] [INFO] ErrorReason= 
+[2022-03-04 06:59:52.5757] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 06:59:52.5757] [INFO] StatusResult=Ok 
+[2022-03-04 06:59:58.9045] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304065956][1WMHCL5ZZY9011][Rainier][C_LED_HAPTICS][FAIL].xml 
+[2022-03-04 06:59:58.9045] [WARN] Upload:SUCCESS 
+[2022-03-04 07:00:05.5882] [INFO] ValidStation=HOLD 
+[2022-03-04 07:00:05.5882] [ERROR] OkHOLD 
+[2022-03-04 07:00:05.5882] [ERROR] OkHOLD 
+[2022-03-04 07:00:05.5882] [INFO] ErrorReason= 
+[2022-03-04 07:00:05.5882] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:00:05.5882] [INFO] StatusResult=Ok 
+[2022-03-04 07:00:11.5166] [INFO] ValidStation=HOLD 
+[2022-03-04 07:00:11.5166] [ERROR] OkHOLD 
+[2022-03-04 07:00:11.5166] [ERROR] OkHOLD 
+[2022-03-04 07:00:11.5166] [INFO] ErrorReason= 
+[2022-03-04 07:00:11.5166] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:00:11.5166] [INFO] StatusResult=Ok 
+[2022-03-04 07:00:35.3639] [INFO] ValidStation=R3060 
+[2022-03-04 07:00:35.3639] [INFO] CheckRoute Pass 
+[2022-03-04 07:00:40.7892] [INFO] ValidStation=R3060 
+[2022-03-04 07:00:40.7892] [INFO] CheckRoute Pass 
+[2022-03-04 07:00:45.6624] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070042][1WMHCRAZZX9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:00:45.6624] [WARN] Upload:SUCCESS 
+[2022-03-04 07:00:50.9368] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070042][1WMHCRAZZX9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:00:50.9368] [WARN] Upload:SUCCESS 
+[2022-03-04 07:00:53.7502] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070042][1WMHCRAZZX9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:00:53.7502] [WARN] Upload:SUCCESS 
+[2022-03-04 07:00:55.9689] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070042][1WMHCRAZZX9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:00:55.9689] [WARN] Upload:SUCCESS 
+[2022-03-04 07:01:00.2432] [INFO] ValidStation=HOLD 
+[2022-03-04 07:01:00.2432] [ERROR] OkHOLD 
+[2022-03-04 07:01:00.2432] [ERROR] OkHOLD 
+[2022-03-04 07:01:00.2432] [INFO] ErrorReason= 
+[2022-03-04 07:01:00.2432] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:01:00.2432] [INFO] StatusResult=Ok 
+[2022-03-04 07:01:16.5759] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070113][1WMHCRAZZW9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:01:16.5759] [WARN] Upload:SUCCESS 
+[2022-03-04 07:01:19.3438] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_CONTROLLER_DL\20220304_xml\[20220304070113][1WMHCRAZZW9011][Rainier][C_CONTROLLER_DL][FAIL].xml 
+[2022-03-04 07:01:19.3438] [WARN] Upload:SUCCESS 
+[2022-03-04 07:01:23.1332] [INFO] ValidStation=HOLD 
+[2022-03-04 07:01:23.1332] [ERROR] OkHOLD 
+[2022-03-04 07:01:23.1332] [ERROR] OkHOLD 
+[2022-03-04 07:01:23.1332] [INFO] ErrorReason= 
+[2022-03-04 07:01:23.1332] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:01:23.1332] [INFO] StatusResult=Ok 
+[2022-03-04 07:23:03.5930] [INFO] ValidStation=R3070 
+[2022-03-04 07:23:03.6100] [INFO] CheckRoute Pass 
+[2022-03-04 07:24:28.7384] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304072422][1WMHCL5ZZY9011][Rainier][C_LED_HAPTICS][FAIL].xml 
+[2022-03-04 07:24:28.7574] [WARN] Upload:SUCCESS 
+[2022-03-04 07:28:33.3358] [WARN] Upload XML log:D:\RubikData\TeleplanData\Rainier_C_LED_HAPTICS\20220304_xml\[20220304072827][1WMHCL5ZZY9011][Rainier][C_LED_HAPTICS][FAIL].xml 
+[2022-03-04 07:28:33.3538] [WARN] Upload:SUCCESS 
+[2022-03-04 07:28:39.7376] [INFO] ValidStation=HOLD 
+[2022-03-04 07:28:39.7376] [ERROR] OkHOLD 
+[2022-03-04 07:28:39.7376] [ERROR] OkHOLD 
+[2022-03-04 07:28:39.7376] [INFO] ErrorReason= 
+[2022-03-04 07:28:39.7376] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:28:39.7376] [INFO] StatusResult=Ok 
+[2022-03-04 07:37:42.5417] [INFO] ValidStation=HOLD 
+[2022-03-04 07:37:42.5417] [ERROR] OkHOLD 
+[2022-03-04 07:37:42.5417] [ERROR] OkHOLD 
+[2022-03-04 07:37:42.5417] [INFO] ErrorReason= 
+[2022-03-04 07:37:42.5445] [INFO] ResultDetail=OkHOLD 
+[2022-03-04 07:37:42.5445] [INFO] StatusResult=Ok 
+[2022-03-04 08:10:42.1870] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220304_xml\[20220304080923][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][FAIL].xml 
+[2022-03-04 08:10:42.2060] [WARN] Upload:SUCCESS 
+[2022-03-04 08:10:48.9677] [INFO] ValidStation=R2090 
+[2022-03-04 20:46:52.3774] [ERROR] System.InvalidOperationException: Plugin.TelePlan.Mes.Models.Log 无法序列化，因为它没有无参数的构造函数。
+   在 System.Xml.Serialization.TypeDesc.CheckSupported()
+   在 System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   在 System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   在 System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   在 System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   在 System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 152
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 142 
+[2022-03-04 20:46:52.3774] [ERROR] System.InvalidOperationException: Plugin.TelePlan.Mes.Models.Log 无法序列化，因为它没有无参数的构造函数。
+   在 System.Xml.Serialization.TypeDesc.CheckSupported()
+   在 System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   在 System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   在 System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   在 System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   在 System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   在 TestFlowDebug.Form1.CreateLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 152
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 142 
+[2022-03-04 21:00:40.4994] [ERROR] System.IO.FileNotFoundException: 未能加载文件或程序集“Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null”
+   在 Plugin.TelePlan.Mes.Models.Log.CreateXML(String sn, String manufacturer)
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Plugin.TelePlan.Mes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\bin\Debug\TestFlowDebug.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core/Rubik.Core.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core/Rubik.Core.EXE。
+ 
+[2022-03-04 21:00:40.4994] [ERROR] System.IO.FileNotFoundException: 未能加载文件或程序集“Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null”
+   在 Plugin.TelePlan.Mes.Models.Log.CreateXML(String sn, String manufacturer)
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code)
+
+=== 预绑定状态信息 ===
+日志: DisplayName = Rubik.Core, Version=1.3.1.1, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: Plugin.TelePlan.Mes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\bin\Debug\TestFlowDebug.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core/Rubik.Core.DLL。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core.EXE。
+日志: 尝试下载新的 URL file:///D:/WorkSpace/goer-work/Rongyao-dev/master/u09-rongyao-sourcecode/TestFlowDebug/bin/Debug/Rubik.Core/Rubik.Core.EXE。
+ 
+[2022-03-04 21:02:54.4232] [ERROR] System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 
+[2022-03-04 21:02:54.4232] [ERROR] System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 

@@ -1,0 +1,126 @@
+[2022-03-03 21:10:12.6537] [INFO] ValidStation= 
+[2022-03-03 21:10:12.6717] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:10:12.6717] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:10:12.6717] [INFO] ErrorReason= 
+[2022-03-03 21:10:12.6717] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:10:12.6717] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 21:10:51.0058] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220303_xml\[20220303091046][1WMHH81ZZU9011][Laguna][H_FATP_SWDL][PASS].xml 
+[2022-03-03 21:10:51.0088] [WARN] Upload:SUCCESS 
+[2022-03-03 21:51:42.5568] [INFO] ValidStation= 
+[2022-03-03 21:51:42.5748] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZV9011 
+[2022-03-03 21:51:42.5748] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZV9011 
+[2022-03-03 21:51:42.5748] [INFO] ErrorReason= 
+[2022-03-03 21:51:42.5748] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZV9011 
+[2022-03-03 21:51:42.5748] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 21:54:19.6493] [INFO] ValidStation= 
+[2022-03-03 21:54:24.5853] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:54:24.5853] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:54:25.0128] [INFO] ErrorReason= 
+[2022-03-03 21:54:25.2268] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 21:54:25.4418] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:02:05.6630] [INFO] ValidStation= 
+[2022-03-03 22:06:11.8287] [INFO] ValidStation= 
+[2022-03-03 22:06:11.8476] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCL5ZZY9011 
+[2022-03-03 22:06:11.8476] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCL5ZZY9011 
+[2022-03-03 22:06:11.8476] [INFO] ErrorReason= 
+[2022-03-03 22:06:11.8476] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHCL5ZZY9011 
+[2022-03-03 22:06:11.8476] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:06:28.0429] [INFO] ValidStation= 
+[2022-03-03 22:06:28.0429] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZX9011 
+[2022-03-03 22:06:28.0429] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZX9011 
+[2022-03-03 22:06:28.0429] [INFO] ErrorReason= 
+[2022-03-03 22:06:28.0429] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZX9011 
+[2022-03-03 22:06:28.0429] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:06:46.4461] [INFO] ValidStation= 
+[2022-03-03 22:06:46.4461] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZW9011 
+[2022-03-03 22:06:46.4461] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZW9011 
+[2022-03-03 22:06:46.4461] [INFO] ErrorReason= 
+[2022-03-03 22:06:46.4461] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHCRAZZW9011 
+[2022-03-03 22:06:46.4461] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:30:29.4286] [INFO] ValidStation= 
+[2022-03-03 22:30:29.4466] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:29.4466] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:29.4486] [INFO] ErrorReason= 
+[2022-03-03 22:30:29.4486] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:29.4486] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:30:40.4794] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220303_xml\[20220303103036][1WMHH81ZZU9011][Laguna][H_FATP_SWDL][PASS].xml 
+[2022-03-03 22:30:40.4804] [WARN] Upload:SUCCESS 
+[2022-03-03 22:30:45.3714] [INFO] ValidStation= 
+[2022-03-03 22:30:45.3714] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:45.3714] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:45.3714] [INFO] ErrorReason= 
+[2022-03-03 22:30:45.3714] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:30:45.3714] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:36:55.7441] [INFO] ValidStation= 
+[2022-03-03 22:37:20.9563] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:37:20.9563] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:37:20.9563] [INFO] ErrorReason= 
+[2022-03-03 22:37:20.9563] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH81ZZU9011 
+[2022-03-03 22:37:20.9563] [INFO] StatusResult=EXCEPTION 
+[2022-03-03 22:39:59.2168] [INFO] ValidStation=R1190 
+[2022-03-03 22:39:59.2358] [ERROR] OkR1190 
+[2022-03-03 22:39:59.2358] [ERROR] OkR1190 
+[2022-03-03 22:39:59.2358] [INFO] ErrorReason= 
+[2022-03-03 22:39:59.2358] [INFO] ResultDetail=OkR1190 
+[2022-03-03 22:39:59.2358] [INFO] StatusResult=Ok 
+[2022-03-03 22:43:11.0793] [INFO] ValidStation=R1190 
+[2022-03-03 22:43:12.0703] [INFO] CheckRoute Pass 
+[2022-03-03 22:43:43.7791] [INFO] ValidStation=R1190 
+[2022-03-03 22:43:43.7991] [INFO] CheckRoute Pass 
+[2022-03-03 22:43:51.0631] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_OS_DOWNGRADE\20220303_xml\[20220303104347][1WMHH81ZZU9011][Laguna][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 22:43:51.0631] [WARN] Upload:SUCCESS 
+[2022-03-03 22:43:59.8552] [INFO] ValidStation=R1190 
+[2022-03-03 22:44:12.6900] [INFO] ValidStation=R1190 
+[2022-03-03 22:44:24.5935] [INFO] ValidStation=R1190 
+[2022-03-03 22:45:18.9568] [INFO] ValidStation=R1190 
+[2022-03-03 22:45:18.9778] [INFO] CheckRoute Pass 
+[2022-03-03 22:45:28.4964] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_OS_DOWNGRADE\20220303_xml\[20220303104521][1WMHH81ZZU9011][Laguna][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 22:45:28.4974] [WARN] Upload:SUCCESS 
+[2022-03-03 22:45:36.4717] [INFO] ValidStation=R1190 
+[2022-03-03 22:52:47.2511] [INFO] ValidStation=R3060 
+[2022-03-03 22:53:05.9771] [INFO] ValidStation=R1190 
+[2022-03-03 22:53:05.9811] [INFO] CheckRoute Pass 
+[2022-03-03 22:53:12.9401] [WARN] Upload XML log:D:\RubikData\TeleplanData\Hollywood_OS_DOWNGRADE\20220303_xml\[20220303105308][1WMHH81ZZU9011][Hollywood][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 22:53:12.9401] [WARN] Upload:SUCCESS 
+[2022-03-03 22:53:52.6731] [INFO] ValidStation=R1190 
+[2022-03-03 22:53:52.6731] [INFO] CheckRoute Pass 
+[2022-03-03 23:33:20.7898] [INFO] ValidStation=R1190 
+[2022-03-03 23:33:20.8138] [INFO] CheckRoute Pass 
+[2022-03-03 23:33:30.5425] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar,Rainier_OS_DOWNGRADE\20220303_xml\[20220303113326][1WMHH81ZZU9011][Miramar,Rainier][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:33:30.5425] [WARN] Upload:SUCCESS 
+[2022-03-03 23:33:38.8461] [INFO] ValidStation=R1190 
+[2022-03-03 23:36:04.1263] [INFO] ValidStation=R1190 
+[2022-03-03 23:36:04.1452] [INFO] CheckRoute Pass 
+[2022-03-03 23:36:14.6308] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303113607][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:36:14.6308] [WARN] Upload:SUCCESS 
+[2022-03-03 23:36:21.6019] [INFO] ValidStation=R1190 
+[2022-03-03 23:39:08.7862] [INFO] ValidStation=R1190 
+[2022-03-03 23:39:08.8062] [INFO] CheckRoute Pass 
+[2022-03-03 23:39:16.0461] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303113911][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:39:16.0461] [WARN] Upload:SUCCESS 
+[2022-03-03 23:39:24.8689] [INFO] ValidStation=R1190 
+[2022-03-03 23:47:20.7075] [INFO] ValidStation=R1190 
+[2022-03-03 23:47:20.7255] [INFO] CheckRoute Pass 
+[2022-03-03 23:47:27.4360] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303114723][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:47:27.4360] [WARN] Upload:SUCCESS 
+[2022-03-03 23:47:39.7620] [INFO] ValidStation=R1190 
+[2022-03-03 23:49:06.4594] [INFO] ValidStation=R1190 
+[2022-03-03 23:49:06.4764] [INFO] CheckRoute Pass 
+[2022-03-03 23:49:16.7048] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303114910][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:49:16.7048] [WARN] Upload:SUCCESS 
+[2022-03-03 23:49:23.9823] [INFO] ValidStation=R1190 
+[2022-03-03 23:51:41.3185] [INFO] ValidStation=R1190 
+[2022-03-03 23:51:41.3355] [INFO] CheckRoute Pass 
+[2022-03-03 23:51:47.1849] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303115143][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:51:47.1849] [WARN] Upload:SUCCESS 
+[2022-03-03 23:51:55.0040] [INFO] ValidStation=R1190 
+[2022-03-03 23:52:48.6973] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303115242][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:52:48.7163] [WARN] Upload:SUCCESS 
+[2022-03-03 23:52:55.1014] [INFO] ValidStation=R1190 
+[2022-03-03 23:52:55.1014] [INFO] CheckRoute Pass 
+[2022-03-03 23:55:34.9845] [INFO] ValidStation=R1190 
+[2022-03-03 23:55:35.0026] [INFO] CheckRoute Pass 
+[2022-03-03 23:55:43.9314] [WARN] Upload XML log:D:\RubikData\TeleplanData\Miramar_OS_DOWNGRADE\20220303_xml\[20220303115539][1WMHH81ZZU9011][Miramar][OS_DOWNGRADE][PASS].xml 
+[2022-03-03 23:55:43.9314] [WARN] Upload:SUCCESS 
+[2022-03-03 23:55:58.2861] [INFO] ValidStation=R1190 
+[2022-03-03 23:55:58.2861] [INFO] CheckRoute Pass 

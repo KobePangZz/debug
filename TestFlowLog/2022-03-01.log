@@ -1,0 +1,68 @@
+[2022-03-01 10:24:04.0601] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 10:24:04.0601] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 10:24:07.7390] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 10:24:07.7390] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 10:24:38.9193] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 10:24:38.9193] [ERROR] System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 TestFlowDebug.Form1.GetFilePath() 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 212
+   在 TestFlowDebug.Form1.UploadLog(Log log) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 200
+   在 TestFlowDebug.Form1.XMLTest(String ErrorCode_Station, String error_code) 位置 D:\WorkSpace\goer-work\Rongyao-dev\master\u09-rongyao-sourcecode\TestFlowDebug\Form1.cs:行号 130 
+[2022-03-01 11:00:06.4422] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220301_xml\[20220301105955][][Laguna][H_FATP_SWDL][FAIL].xml 
+[2022-03-01 11:00:14.4402] [WARN] Upload:SUCCESS 
+[2022-03-01 11:02:43.2873] [INFO] ValidStation= 
+[2022-03-01 11:03:16.6711] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:03:16.6711] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:03:16.6711] [INFO] ErrorReason= 
+[2022-03-01 11:03:16.6711] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:03:16.6711] [INFO] StatusResult=EXCEPTION 
+[2022-03-01 11:10:44.9832] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220301_xml\[20220301111038][1WMHH864AU1364][Laguna][H_FATP_SWDL][PASS].xml 
+[2022-03-01 11:10:45.0012] [WARN] Upload:SUCCESS 
+[2022-03-01 11:10:54.1794] [INFO] ValidStation= 
+[2022-03-01 11:10:54.1814] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:10:54.1814] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:10:54.1814] [INFO] ErrorReason= 
+[2022-03-01 11:10:54.1814] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:10:54.1814] [INFO] StatusResult=EXCEPTION 
+[2022-03-01 11:14:57.4885] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220301_xml\[20220301111451][1WMHH864AU1364][Laguna][H_FATP_SWDL][PASS].xml 
+[2022-03-01 11:14:57.5075] [WARN] Upload:SUCCESS 
+[2022-03-01 11:23:42.4304] [INFO] ValidStation= 
+[2022-03-01 11:23:42.4503] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:23:42.4503] [ERROR] EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:23:42.4503] [INFO] ErrorReason= 
+[2022-03-01 11:23:42.4503] [INFO] ResultDetail=EXCEPTIONException: Unable to get shop order for serial number 1WMHH864AU1364 
+[2022-03-01 11:23:42.4503] [INFO] StatusResult=EXCEPTION 
+[2022-03-01 11:23:57.4880] [WARN] Upload XML log:D:\RubikData\TeleplanData\Laguna_H_FATP_SWDL\20220301_xml\[20220301112352][1WMHH864AU1364][Laguna][H_FATP_SWDL][PASS].xml 
+[2022-03-01 11:23:57.4880] [WARN] Upload:SUCCESS 

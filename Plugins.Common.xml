@@ -1,0 +1,2266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugins.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Plugins.Common.BuilderClearUtil">
+            <summary>
+            StringBuilder清理工具
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.BuilderClearUtil.DelHeadLine(System.Text.StringBuilder@,System.Int32)">
+            <summary>
+            删除builder中头部的lineCount行数据
+            </summary>
+            <param name="builder">待删除头部数据的StringBuilder对象</param>
+            <param name="lineCount">目标删除行数</param>
+            <returns>返回删除的字符长度(个数)</returns>
+        </member>
+        <member name="M:Plugins.Common.BuilderClearUtil.DelSameLines(System.Text.StringBuilder@,System.Text.Encoding)">
+            <summary>
+            删除重复行
+            </summary>
+            <param name="builder">待清理的StringBuilder对象</param>
+            <param name="encode">字符串所用的字符集</param>
+            <returns>返回删除掉的行数</returns>
+        </member>
+        <member name="T:Plugins.Common.CheckUtil">
+            <summary>
+            执行结果检查工具类
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.CheckUtil.ClearEmptyCondition(System.Collections.Generic.List{Plugins.Common.ConditionModel})">
+            <summary>
+            清除空的检查条件
+            </summary>
+            <param name="conditions">检查条件列表</param>
+        </member>
+        <member name="M:Plugins.Common.CheckUtil.CheckWithConditions(System.String,System.Collections.Generic.List{Plugins.Common.ConditionModel})">
+            <summary>
+            检查结果文件result是否满足检查条件conditions
+            </summary>
+            <param name="result">结果文本内容</param>
+            <param name="conditions">检查条件</param>
+            <returns>满足条件返回true，否则返回false</returns>
+        </member>
+        <member name="M:Plugins.Common.CheckUtil.checkOneCondition(System.String,Plugins.Common.ConditionModel)">
+            <summary>
+            单个条件是否满足检查
+            </summary>
+            <param name="result">结果文本内容</param>
+            <param name="condition">单个检查条件</param>
+            <returns>满足条件返回true，否则返回false</returns>
+        </member>
+        <member name="T:Plugins.Common.Editor.RunnableFileSelector">
+            <summary>
+            用于选择exe、bat等文件的选择器
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Editor.ArgumentsInputForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Editor.ArgumentsInputForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Plugins.Common.Editor.ArgumentsInputForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Extensions.EnumExtension.GetDescription(System.Enum)">
+            <summary>
+            获取枚举的描述信息
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.IsAuditMode(Rubik.Core.IExecutionContext)">
+            <summary>
+            获取是否是点检产品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.AuditModeState(Rubik.Core.IExecutionContext)">
+            <summary>
+            获取点检State
+            </summary>
+            <param name="context"></param>
+            <returns>ON||OFF</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.IsCheckRoute(Rubik.Core.IExecutionContext)">
+            <summary>
+            是否已经过路由
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetAdbSN(Rubik.Core.IExecutionContext)">
+            <summary>
+            获取AdbSN
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetDutSN(Rubik.Core.IExecutionContext)">
+            <summary>
+            获取产品SN
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetEngineId(Rubik.Core.IExecutionContext)">
+            <summary>
+            获取EngineId
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetStationDesc(Rubik.Core.IExecutionContext,Plugin.IT.MES.MesSettingInfo)">
+            <summary>
+            获取line_id Station_Number Station_Instance
+            </summary>
+            <param name="context"></param>
+            <param name="mesSettingInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetStationDescCV3(Rubik.Core.IExecutionContext,Plugin.IT.MES.MesSettingInfo)">
+            <summary>
+            获取line_id Station_Number Station_Instance
+            </summary>
+            <param name="context"></param>
+            <param name="mesSettingInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ExecutionContextExtension.GetStationDescCV3_FATP(Rubik.Core.IExecutionContext,Plugin.IT.MES.MesSettingInfo)">
+            <summary>
+            获取line_id Station_Number Station_Instance
+            </summary>
+            <param name="context"></param>
+            <param name="mesSettingInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ContextExtension.IsMesOnline(Igloo.Plugin.IContext)">
+            <summary>
+            是Mes否是在线模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ContextExtension.MesState(Igloo.Plugin.IContext)">
+            <summary>
+            获取MesState
+            </summary>
+            <param name="pluginContext"></param>
+            <returns>OFFLINE||ONLINE</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ContextExtension.GetSetting``1(Igloo.Plugin.IContext,System.String)">
+            <summary>
+            获取Setting值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="pluginContext"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ContextExtension.GetFileNameString(Igloo.Plugin.IContext)">
+            <summary>
+            获取序列中配置的Product_Station_Version_Stage最为返回值输出
+            </summary>
+            <param name="pluginContext"></param>
+            <returns>Product_Station_Version_Stage</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.ContextExtension.GetNlogContent(Igloo.Plugin.IContext,Rubik.Core.IExecutionContext)">
+            <summary>
+            获取当前引擎的nlog内容
+            </summary>
+            <param name="pluginContext"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Plugins.Common.Extensions.JsonSerializeExtension.DefaultSerializerSettings">
+            <summary>
+            DefaultSerializerSettings
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.ToJson(System.Object)">
+            <summary>
+            将object对象转换为Json数据
+            </summary>
+            <param name="obj">object对象</param>
+            <returns>转换后的json字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.ToJson(System.Object,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            将object对象转换为Json数据
+            </summary>
+            <param name="obj">object对象</param>
+            <param name="serializerSettings">序列化设置</param>
+            <returns>转换后的json字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.ToJson(System.Object,System.Boolean)">
+            <summary>
+            将object对象转换为Json数据
+            </summary>
+            <param name="obj">目标对象</param>
+            <param name="isConvertToSingleQuotes">是否将双引号转成单引号</param>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.ToJson(System.Object,System.Boolean,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            将object对象转换为Json数据
+            </summary>
+            <param name="obj">目标对象</param>
+            <param name="isConvertToSingleQuotes">是否将双引号转成单引号</param>
+            <param name="settings">serializerSettings</param>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.JsonToObject``1(System.String)">
+            <summary>
+            将Json对象转换为T对象
+            </summary>
+            <typeparam name="T">对象的类型</typeparam>
+            <param name="jsonString">json对象字符串</param>
+            <returns>由字符串转换得到的T对象</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.JsonToObject``1(System.String,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            将Json对象转换为T对象
+            </summary>
+            <typeparam name="T">对象的类型</typeparam>
+            <param name="jsonString">json对象字符串</param>
+            <param name="settings">JsonSerializerSettings</param>
+            <returns>由字符串转换得到的T对象</returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.JsonSerializeExtension.ToJsonOrString(System.Object)">
+            <summary>
+            对象转换为string，如果是基元类型直接ToString(),如果是Entity则Json序列化
+            </summary>
+            <param name="obj">要操作的对象</param>
+            <returns></returns>
+        </member>
+        <member name="F:Plugins.Common.Extensions.TypeExtension.BasicTypes">
+            <summary>
+            基础类型
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Extensions.TypeExtension.GetTypeCode(System.Type)">
+            <summary>
+            get TypeCode for specific type
+            </summary>
+            <param name="type">type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.TypeExtension.IsValueTuple(System.Type)">
+            <summary>
+            是否是 ValueTuple
+            </summary>
+            <param name="type">type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.TypeExtension.GetDescription(System.Type)">
+            <summary>
+            GetDescription
+            </summary>
+            <param name="type">type</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Extensions.TypeExtension.IsPrimitiveType(System.Type)">
+            <summary>
+            判断是否基元类型，如果是可空类型会先获取里面的类型，如 int? 也是基元类型
+            The primitive types are Boolean, Byte, SByte, Int16, UInt16, Int32, UInt32, Int64, UInt64, IntPtr, UIntPtr, Char, Double, and Single.
+            </summary>
+            <param name="type">type</param>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Hardware.CpuInfo">
+            <summary>
+            CPU模型
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.DeviceID">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.Type">
+            <summary>
+            CPU型号 
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.Manufacturer">
+            <summary>
+            CPU厂商
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.MaxClockSpeed">
+            <summary>
+            CPU最大睿频
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.CurrentClockSpeed">
+            <summary>
+            CPU的时钟频率
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.NumberOfCores">
+            <summary>
+            CPU核心数
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.NumberOfLogicalProcessors">
+            <summary>
+            逻辑处理器核心数
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.CpuLoad">
+            <summary>
+            CPU使用率
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.DataWidth">
+            <summary>
+            CPU位宽
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.Temperature">
+            <summary>
+            核心温度
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.CpuInfo.SerialNumber">
+            <summary>
+            序列号
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.SystemInfo">
+            <summary>
+            硬件信息，部分功能需要C++支持，仅支持Windows系统
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.SystemInfo.CPU_INFO">
+            <summary>
+            定义CPU的信息结构
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.SystemInfo.ProcessorCount">
+            <summary>
+            获取CPU核心数 
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.SystemInfo.CpuLoad">
+            <summary>
+            获取CPU占用率 %
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.SystemInfo.MemoryAvailable">
+            <summary>
+            获取可用内存
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.SystemInfo.PhysicalMemory">
+            <summary>
+            获取物理内存
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.FindAllApps(System.Int32)">
+            <summary>
+            查找所有应用程序标题 
+            </summary>
+            <param name="handle">应用程序标题范型</param>
+            <returns>所有应用程序集合</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetCpuCount">
+            <summary>
+            获取CPU的数量
+            </summary>
+            <returns>CPU的数量</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetCpuInfo">
+            <summary>
+            获取CPU信息
+            </summary>
+            <returns>CPU信息</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetRamInfo">
+            <summary>
+            获取内存信息
+            </summary>
+            <returns>内存信息</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetCPUTemperature">
+            <summary>
+            获取CPU温度
+            </summary>
+            <returns>CPU温度</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetProcessorData">
+            <summary>
+            WMI接口获取CPU使用率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetMemoryVData">
+            <summary>
+            获取虚拟内存使用率详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetUsageVirtualMemory">
+            <summary>
+            获取虚拟内存使用率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetUsedVirtualMemory">
+            <summary>
+            获取虚拟内存已用大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetTotalVirtualMemory">
+            <summary>
+            获取虚拟内存总大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetMemoryPData">
+            <summary>
+            获取物理内存使用率详情描述
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetTotalPhysicalMemory">
+            <summary>
+            获取物理内存总数，单位B
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetFreePhysicalMemory">
+            <summary>
+            获取空闲的物理内存数，单位B
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetUsedPhysicalMemory">
+            <summary>
+            获取已经使用了的物理内存数，单位B
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetDiskData(Plugins.Common.Hardware.DiskData)">
+            <summary>
+            获取硬盘的读写速率
+            </summary>
+            <param name="dd">读或写</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetNetData(Plugins.Common.Hardware.NetData)">
+            <summary>
+            获取网络的传输速率
+            </summary>
+            <param name="nd">上传或下载</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetMacAddress">
+            <summary>
+            获取网卡硬件地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetLocalUsedIP">
+            <summary>  
+            获取当前使用的IP  
+            </summary>  
+            <returns></returns>  
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetLocalIPs">
+            <summary>  
+            获取本机所有的ip地址
+            </summary>  
+            <returns></returns>  
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.FormatBytes(System.Double)">
+            <summary>
+            将速度值格式化成字节单位
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.BootTime">
+            <summary>
+            获取计算机开机时间
+            </summary>
+            <returns>datetime</returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.QueryComputerSystem(System.String)">
+            <summary>
+            查询计算机系统信息
+            </summary>
+            <param name="type">类型名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.QueryEnvironment(System.String)">
+            <summary>
+            获取环境变量
+            </summary>
+            <param name="type">环境变量名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Hardware.SystemInfo.GetDiskInfo">
+            <summary>
+            获取磁盘可用空间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Hardware.DiskData">
+            <summary>
+            磁盘数据
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.DiskData.ReadAndWrite">
+            <summary>
+            读写
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.DiskData.Read">
+            <summary>
+            读
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.DiskData.Write">
+            <summary>
+            写
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.MemoryInfo">
+            <summary>
+            定义内存的信息结构
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.NetData">
+            <summary>
+            网络数据
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.NetData.ReceivedAndSent">
+            <summary>
+            收发
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.NetData.Received">
+            <summary>
+            收
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Hardware.NetData.Sent">
+            <summary>
+            发
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.RamInfo">
+            <summary>
+            内存条模型
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.MemoryAvailable">
+            <summary>
+            可用物理内存
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.PhysicalMemory">
+            <summary>
+            物理总内存
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.TotalPageFile">
+            <summary>
+            分页内存总数
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.AvailablePageFile">
+            <summary>
+            分页内存可用
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.TotalVirtual">
+            <summary>
+            虚拟内存总数
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.AvailableVirtual">
+            <summary>
+            虚拟内存可用
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.Hardware.RamInfo.MemoryUsage">
+            <summary>
+            内存使用率
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.SystemtimeInfo">
+            <summary>
+            定义系统时间的信息结构
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Hardware.Unit">
+            <summary>
+            字节单位枚举
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.BitUtil.GetBitList(System.Int32)">
+            <summary>
+            根据Int类型的值，返回用1或0(对应True或Flase)填充的数组
+            <remarks>从右侧开始向左索引(0~31)</remarks>
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.BitUtil.GetBitValue(System.Int32,System.UInt16)">
+            <summary>
+            返回Int数据中某一位是否为1
+            </summary>
+            <param name="value"></param>
+            <param name="index">32位数据的从右向左的偏移位索引(0~31)</param>
+            <returns>true表示该位为1，false表示该位为0</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.BitUtil.SetBitValue(System.Int32,System.UInt16,System.Boolean)">
+            <summary>
+            设定Int数据中某一位的值
+            </summary>
+            <param name="value">位设定前的值</param>
+            <param name="index">32位数据的从右向左的偏移位索引(0~31)</param>
+            <param name="bitValue">true设该位为1,false设为0</param>
+            <returns>返回位设定后的值</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.Equals(System.Byte[],System.Byte[])">
+            <summary>
+            比对两个byte数组是否相同,当数组长度及内容安全一致时返回true，反之返回false
+            </summary>
+            <param name="arr1"></param>
+            <param name="arr2"></param>
+            <returns>当长度及内容都相同时返回true，否则返回false</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.CopyToShort(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            将byte数组转换成short，默认处理2个字节
+            </summary>
+            <param name="source"></param>
+            <param name="startIdx"></param>
+            <param name="count"></param>
+            <param name="highEnd">是否是高位在后，默认为true</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.CopyToInt(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            将byte数组转换成int，默认处理4个字节
+            </summary>
+            <param name="source"></param>
+            <param name="startIdx"></param>
+            <param name="count"></param>
+            <param name="highEnd">是否是高位在后，默认为true</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.CopyToFloat(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            将byte数组转换成float，默认处理4个字节
+            </summary>
+            <param name="source"></param>
+            <param name="startIdx"></param>
+            <param name="count"></param>
+            <param name="highEnd">是否是高位在后，默认为true</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.ShortToBytes(System.Int16)">
+            <summary>
+            将short转换成byte数组
+            </summary>
+            <param name="num"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.IntToBytes(System.Int32)">
+            <summary>
+            将int转换成byte数组
+            </summary>
+            <param name="num"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.BytesToString(System.Byte[])">
+            <summary>
+            将字节数组转换成ASCII码字符串
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.BytesToString(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            将字节数组中beginIdx下标开始的length个字节转换成ASCII码字符串
+            </summary>
+            <param name="arr"></param>
+            <param name="beginIdx"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.BytesToHexString(System.Byte[],System.String)">
+            <summary>
+            将字节数组转换成字符串，每两个16进制字符用splitStr分隔开
+            </summary>
+            <param name="arr"></param>
+            <param name="splitStr"></param>
+            <returns>返回用转换后由传入的分隔符分隔开的16进制字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.BytesToHexString(System.Byte[],System.Int32,System.Int32,System.String)">
+            <summary>
+            将字节数组中beginIdx下标开始的length个字节转化为以splitStr分隔的十六进制字符串
+            </summary>
+            <param name="arr"></param>
+            <param name="beginIdx"></param>
+            <param name="length"></param>
+            <param name="splitStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.HexStringToBytes(System.String)">
+            <summary>
+            将16进制字符串转换成byte数组，忽略其中的非16进制字符，如：“AHD”转换成Byte数组时等同于“AD”，其中的H将被忽略掉
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.Compare(System.Byte[],System.Byte[],System.Int32)">
+            <summary>
+            比较两个字节数组中前len个字节，如果对应的len个字节都相同返回true，否则返回false
+            </summary>
+            <param name="arr1"></param>
+            <param name="arr2"></param>
+            <param name="len"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ByteUtil.Compare(System.Byte[],System.Int32,System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            比较两个字节数组中指定下标开始的len个字节，如果对应的len个字节都相同返回true，否则返回false
+            </summary>
+            <param name="arr1"></param>
+            <param name="idx1"></param>
+            <param name="arr2"></param>
+            <param name="idx2"></param>
+            <param name="len"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.DeepCopyHelper.BinaryDeepCopy``1(``0)">
+            <summary>
+            二进制序列化的方式进行深拷贝
+            确保需要拷贝的类里的所有成员已经标记为 [Serializable] 如果没有加该特性特报错
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ExceptionCheckUtil.ThrowException(Rubik.Core.IExecutionContext)">
+            <summary>
+            工装异常或者设备接入异常
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.FrameHelper.GetEngineRotaryPanel">
+            <summary>
+            获取Rubik的Panal的设置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ModbusHelper.GetReadRegisterCmd(System.String,System.Int32)">
+            <summary>
+            获取完整的读取指令
+            </summary>
+            <param name="startAddress">HD0=>A080起始地址</param>
+            <param name="num">寄存器的个数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ModbusHelper.ValidateReadRecvData(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            验证读取数据格式是否正确
+            </summary>
+            <param name="rcv"></param>
+            <param name="index">index从0开始的下标</param>
+            <param name="validData">返回值的有效数据</param>
+            <param name="bit">取多少位数据，默认8位</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ModbusHelper.AnalyzeRecvData(System.String,System.Int32)">
+            <summary>
+            获取某个寄存器的值
+            </summary>
+            <param name="rcv"></param>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ModbusHelper.GetWriteRegisterCmd(System.String,System.String)">
+            <summary>
+            获取完整的写入指令
+            </summary>
+            <param name="startAddress">起始地址</param>
+            <param name="sendCmd">写入的指令</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.ModbusHelper.ValidateWriteRecvData(System.String,System.String)">
+            <summary>
+            判断接收的返回值是否正确
+            </summary>
+            <param name="rcv"></param>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.NTPHelper.GetNetworkTime(System.String)">
+            <summary>
+            获取NTC时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.WindowsHelper.FindWindow(System.String,System.String)">
+            <summary>
+            这就是用来查找要控制的应用程序窗口的
+            className就是要查找窗口的类，一般设置为null即可
+            captionName就是要查找的窗口的名称
+            </summary>
+            <param name="lpClassName"></param>
+            <param name="lpWindowName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.WindowsHelper.FindWindowEx(System.IntPtr,System.IntPtr,System.String,System.String)">
+            <summary>
+            这是用来查找窗口中的控件的
+            parent就是父窗口句柄，就是调用FindWindow的返回值
+            child就是子窗口句柄（因为如果根据className进行查找的话，会找到很多结果，可以根据子句柄精确定位）
+            classname就是要查找的窗口的类，如果根据captionName进行查找的话则设置为null即可
+            captionName为查找的控件的标题（如果是按钮则是按钮上的文字）
+            </summary>
+            <param name="parent"></param>
+            <param name="child"></param>
+            <param name="classname"></param>
+            <param name="captionName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.WindowsHelper.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+            <summary>
+            写Ini文件的方法
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="val"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.WindowsHelper.GetPrivateProfileString(System.String,System.String,System.String,System.Text.StringBuilder,System.Int32,System.String)">
+            <summary>
+            读取Ini文件的方法
+            </summary>
+            <param name="section"></param>
+            <param name="key"></param>
+            <param name="def"></param>
+            <param name="retVal"></param>
+            <param name="size"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.WindowsHelper.WinExec(System.String,System.Int32)">
+            <summary>
+            原型：UINT WinExec(exePath,ShowCmd)
+            示例，我想要用记事本打开"C:\HDC.TXT"，以正常方式运行：WinExec(pChar('notepad c:\taoyoyo.txt'),SW_SHOWNORMAL); 
+            方法成功，返回>31的整数值；
+            方法失败，返回：
+            0	系统内存或资源不够
+            ERROR_BAD_FORMAT	非法的exe程序
+            ERROR_FILE_NOT_FOUND	文件未找到
+            ERROR_PATH_NOT_FOUND	路径未找到
+            </summary>
+            <param name="pParams"></param>
+            <param name="pValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Helper.ZipHelper">
+            <summary>
+            Zip压缩与解压缩 
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.ZipHelper.ZipFile(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            压缩单个文件
+            </summary>
+            <param name="fileToZip">要压缩的文件</param>
+            <param name="zipedFile">压缩后的文件</param>
+            <param name="compressionLevel">压缩等级</param>
+            <param name="blockSize">每次写入大小</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.ZipHelper.ZipFile(System.String,System.String)">
+            <summary>
+            压缩单个文件
+            </summary>
+            <param name="fileToZip">要进行压缩的文件名</param>
+            <param name="zipedFile">压缩后生成的压缩文件名</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.ZipHelper.ZipFileDirectory(System.String,System.String)">
+            <summary>
+            压缩多层目录
+            </summary>
+            <param name="strDirectory">The directory.</param>
+            <param name="zipedFile">The ziped file.</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.ZipHelper.ZipSetp(System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream,System.String)">
+            <summary>
+            递归遍历目录
+            </summary>
+            <param name="strDirectory">The directory.</param>
+            <param name="s">The ZipOutputStream Object.</param>
+            <param name="parentPath">The parent path.</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.ZipHelper.UnZip(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            解压缩一个 zip 文件。
+            </summary>
+            <param name="zipedFile">The ziped file.</param>
+            <param name="strDirectory">The STR directory.</param>
+            <param name="password">zip 文件的密码。</param>
+            <param name="overWrite">是否覆盖已存在的文件。</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.FixtureHelper.WriteAndReadValidate(System.String,System.String,System.Boolean,System.Int32)">
+            <summary>
+            写入寄存器并且读取相对应的寄存器的数据格式
+            </summary>
+            <param name="write">写入寄存器地址</param>
+            <param name="cmd">写入指令</param>
+            <param name="isClear">是否需要清理</param>
+            <param name="timeOut">超时时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.FixtureHelper.WriteCmd(System.String,System.String)">
+            <summary>
+            只向寄存器中写数据
+            </summary>
+            <param name="address"></param>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.FixtureHelper.ReadCmd(System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="address"></param>
+            <param name="write_cmd">cmd代表write的cmd,用来表示获取validate</param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.FixtureHelper.OnlyReadCmd(System.String,System.String,System.Int32)">
+            <summary>
+            从寄存器中读取数据
+            </summary>
+            <param name="address"></param>
+            <param name="validate"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.FixtureHelper.ClearCmd(System.String)">
+            <summary>
+            清理寄存器中的数据
+            </summary>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Plugins.Common.Helper.CsvHelper.CsvSeparatorCharacter">
+            <summary>
+            CsvSeparatorCharacter, ',' by default
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helper.CsvHelper.CsvQuoteCharacter">
+            <summary>
+            CsvQuoteCharacter, '"' by default
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToCsvFile(System.Data.DataTable,System.String)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToCsvFile(System.Data.DataTable,System.String,System.Boolean)">
+            <summary>
+            save to csv file
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.AppendCsvFile(System.Data.DataTable,System.String)">
+            <summary>
+            append to csv file 
+            </summary>
+            <param name="dataTable"></param>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToCsvBytes(System.Data.DataTable)">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToCsvBytes(System.Data.DataTable,System.Boolean)">
+            <summary>
+            to csv bytes
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToDataTable(System.Byte[])">
+            <summary>
+            convert csv file data to dataTable
+            </summary>
+            <param name="csvBytes">csv bytes</param>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToDataTable(System.IO.Stream,System.Int32)">
+            <summary>
+            convert csv stream data to dataTable
+            </summary>
+            <param name="stream">stream</param>
+            <param name="startLine"></param>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.ToDataTable(System.String,System.Int32)">
+            <summary>
+            convert csv file data to dataTable
+            </summary>
+            <param name="filePath">csv file path</param>
+            <param name="startLine"></param>
+        </member>
+        <member name="M:Plugins.Common.Helper.CsvHelper.GetCsvColumns(System.Data.DataTable)">
+            <summary>
+            get csv file data to Columns
+            </summary>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.GeneralHelper.HexStringToASCII(System.String)">
+            <summary>
+            十六进制转ASCII
+            </summary>
+            <param name="hexstring"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.GeneralHelper.HexStringToBinary(System.String)">
+            <summary>
+            十六进制转byte[]
+            </summary>
+            <param name="hexstring"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Plugins.Common.Helper.HttpHelper.FileHeaderFormat">
+            <summary>
+            文件头 format
+            0:fileKey
+            1:fileName
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helper.HttpHelper.FormDataFormat">
+            <summary>
+            FormDataFormat
+            0:key
+            1:value
+            2:boundary
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetString(System.String)">
+            <summary>
+            HTTP GET请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetString(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            HTTP GET请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="customHeaders"></param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetString(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP GET请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="proxy">proxy</param>
+            <param name="customHeaders">customHeaders</param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetStringAsync(System.String)">
+            <summary>
+            HTTP GET异步请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetStringAsync(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            HTTP GET异步请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="customHeaders"></param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetStringAsync(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP GET异步请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="customHeaders"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetForBytes(System.String)">
+            <summary>
+            HTTP GET请求，返回字节数组
+            </summary>
+            <param name="url"> url </param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetForBytes(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            HTTP GET请求，返回字节数组
+            </summary>
+            <param name="url"> url </param>
+            <param name="customHeaders">customHeaders</param>
+            <returns></returns>"
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetForBytes(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP GET请求，返回字节数组
+            </summary>
+            <param name="url"></param>
+            <param name="customHeaders"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetForBytesAsync(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP GET异步请求，返回字节数组
+            </summary>
+            <param name="url"></param>
+            <param name="customHeaders"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetString(System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            HTTP GET 请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="parameters"> post数据字典 </param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpGetStringAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            HTTP GET 请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="parameters"> post数据字典 </param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.GetContentType(System.Boolean)">
+            <summary>
+            获取 post 请求的 ContentType
+            </summary>
+            <param name="isJsonFormat">请求参数是否是Json格式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPost(System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            HTTP POST 请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="parameters"> post数据字典 </param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            HTTP POST 请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="parameters"> post数据字典 </param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostJson``1(System.String,``0)">
+            <summary>
+            Http
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostJsonAsync``1(System.String,``0)">
+            <summary>
+            HttpPostJsonAsync
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPost(System.String,System.Byte[],System.Boolean,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP POST 请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="postData"> post数据 </param>
+            <param name="isJsonFormat"> 是否是json格式数据 </param>
+            <param name="customHeaders"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostAsync(System.String,System.Byte[],System.Boolean,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Net.WebProxy)">
+            <summary>
+            HTTP POST 异步请求，返回字符串
+            </summary>
+            <param name="url"> url </param>
+            <param name="postData"> post数据 </param>
+            <param name="isJsonFormat"> 是否是json格式数据 </param>
+            <param name="customHeaders"></param>
+            <param name="proxy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFile(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostFile
+            <see href="https://stackoverflow.com/questions/566462/upload-files-with-httpwebrequest-multipart-form-data"></see>
+            <see href="http://www.cnblogs.com/greenerycn/archive/2010/05/15/csharp_http_post.html"></see>
+            </summary>
+            <param name="url">post url</param>
+            <param name="filePath">filePath</param>
+            <param name="fileKey">fileKey in form,default is "file"</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFile(System.String,System.String,System.Byte[],System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostFile
+            </summary>
+            <param name="url">post url</param>
+            <param name="fileName">fileName</param>
+            <param name="fileBytes">fileBytes</param>
+            <param name="fileKey">fileKey in form,default is "file"</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFile(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostMultiFile
+            </summary>
+            <param name="url">post url</param>
+            <param name="filePaths">files</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFile(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Byte[]}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostMultiFile
+            </summary>
+            <param name="url">post url</param>
+            <param name="files">files</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFileAsync(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostFileAsync
+            https://stackoverflow.com/questions/566462/upload-files-with-httpwebrequest-multipart-form-data
+            http://www.cnblogs.com/greenerycn/archive/2010/05/15/csharp_http_post.html
+            </summary>
+            <param name="url">post url</param>
+            <param name="filePath">filePath</param>
+            <param name="fileKey">fileKey in form,default is "file"</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns>response text</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFileAsync(System.String,System.String,System.Byte[],System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            PostFileAsync
+            </summary>
+            <param name="url">post url</param>
+            <param name="fileName">fileName</param>
+            <param name="fileBytes">fileBytes</param>
+            <param name="fileKey">fileKey in form,default is "file"</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFileAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            Post Multi File Async
+            </summary>
+            <param name="url">post url</param>
+            <param name="filePaths">files</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.HttpPostFileAsync(System.String,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Byte[]}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">
+            <summary>
+            Post Multi File Async
+            </summary>
+            <param name="url">post url</param>
+            <param name="files">files</param>
+            <param name="formFields">other form fields</param>
+            <param name="headers">request headers</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.GetUserAgent(System.Boolean)">
+            <summary>
+            GetUserAgent
+            </summary>
+            <param name="isMobileUserAgent">isMobileUserAgent</param>
+            <returns>UserAgent</returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.HttpHelper.GetWechatUserAgent">
+            <summary>
+            GetWechatUserAgent
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Helper.RetryHelper">
+            <summary>
+            重试
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helper.RetryHelper.TryInvoke``1(System.Func{``0},System.Func{``0,System.Boolean},Rubik.Core.IExecutionContext,System.Int32,System.Boolean,System.Int32)">
+            <summary>
+            返回func的结果
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="func"></param>
+            <param name="validFunc"></param>
+            <param name="context"></param>
+            <param name="maxRetryTimes"></param>
+            <param name="delay"></param>
+            <param name="sleepTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helper.RetryHelper.InvokeTimeOut``1(System.Func{``0},System.Func{``0,System.Boolean},Rubik.Core.IExecutionContext,System.Int32,System.Int32)">
+            <summary>
+            用于超时
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="func"></param>
+            <param name="validFunc"></param>
+            <param name="context"></param>
+            <param name="sleepTime"></param>
+            <param name="timeOut"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Helpers.ValidateHelper">
+            <summary>
+            常用验证帮助类
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsEmail(System.String)">
+            <summary>
+            是否为邮箱名
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsMobile(System.String)">
+            <summary>
+            是否为手机号
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsPhone(System.String)">
+            <summary>
+            是否为固话号
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsIP(System.String)">
+            <summary>
+            是否为IP
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsIdCard(System.String)">
+            <summary>
+            是否是身份证号
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.CheckIDCard18(System.String)">
+            <summary>
+            是否为18位身份证号
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.CheckIDCard15(System.String)">
+            <summary>
+            是否为15位身份证号
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsDate(System.String)">
+            <summary>
+            是否为日期
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsNumeric(System.String)">
+            <summary>
+            是否是数值(包括整数和小数)
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.ValidateHelper.IsZipCode(System.String)">
+            <summary>
+            是否为邮政编码
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Helpers.HashHelper">
+            <summary>
+            HashHelper
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(System.String)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="filePath">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.String)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="str">源字符串</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.String,System.Boolean)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="str">源字符串</param>
+            <param name="isLower">是否是小写</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.String,System.String,System.Boolean)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="str">源字符串</param>
+            <param name="key">key</param>
+            <param name="isLower">是否是小写</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.String,System.Text.Encoding,System.Boolean)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="str">源字符串</param>
+            <param name="encoding">编码类型</param>
+            <param name="isLower">是否是小写</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.String,System.String,System.Text.Encoding,System.Boolean)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="str">源字符串</param>
+            <param name="key">key</param>
+            <param name="encoding">编码类型</param>
+            <param name="isLower">是否是小写</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.Byte[])">
+            <summary>
+            计算字符串Hash值
+            </summary>
+            <param name="type">hash类型</param>
+            <param name="source">source</param>
+            <returns>hash过的字节数组</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.Byte[],System.Boolean)">
+            <summary>
+            计算字符串Hash值
+            </summary>
+            <param name="type">hash类型</param>
+            <param name="source">source</param>
+            <param name="isLower">isLower</param>
+            <returns>hash过的字节数组</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedString(Plugins.Common.Helpers.HashType,System.Byte[],System.Byte[],System.Boolean)">
+            <summary>
+            获取哈希之后的字符串
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="source">源</param>
+            <param name="key">key</param>
+            <param name="isLower">是否是小写</param>
+            <returns>哈希算法处理之后的字符串</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedBytes(Plugins.Common.Helpers.HashType,System.String)">
+            <summary>
+            计算字符串Hash值
+            </summary>
+            <param name="type">hash类型</param>
+            <param name="str">要hash的字符串</param>
+            <returns>hash过的字节数组</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedBytes(Plugins.Common.Helpers.HashType,System.String,System.Text.Encoding)">
+            <summary>
+            计算字符串Hash值
+            </summary>
+            <param name="type">hash类型</param>
+            <param name="str">要hash的字符串</param>
+            <param name="encoding">编码类型</param>
+            <returns>hash过的字节数组</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedBytes(Plugins.Common.Helpers.HashType,System.Byte[])">
+            <summary>
+            获取Hash后的字节数组
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="bytes">原字节数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.HashHelper.GetHashedBytes(Plugins.Common.Helpers.HashType,System.Byte[],System.Byte[])">
+            <summary>
+            获取Hash后的字节数组
+            </summary>
+            <param name="type">哈希类型</param>
+            <param name="key">key</param>
+            <param name="bytes">原字节数组</param>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.Helpers.HashType">
+            <summary>
+            Hash 类型
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helpers.HashType.MD5">
+            <summary>
+            MD5
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helpers.HashType.SHA1">
+            <summary>
+            SHA1
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helpers.HashType.SHA256">
+            <summary>
+            SHA256
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helpers.HashType.SHA384">
+            <summary>
+            SHA384
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.Helpers.HashType.SHA512">
+            <summary>
+            SHA512
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.SerializeBinary``1(``0)">
+            <summary>
+                An object extension method that serialize an object to binary.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.SerializeBinary``1(``0,System.Text.Encoding)">
+            <summary>
+                An object extension method that serialize an object to binary.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>A string.</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.SerializeJson``1(``0)">
+            <summary>
+                A T extension method that serialize an object to Json.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <returns>The Json string.</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.SerializeXml(System.Object)">
+            <summary>
+                An object extension method that serialize a string to XML.
+            </summary>
+            <param name="this">The @this to act on.</param>
+            <returns>The string representation of the Xml Serialization.</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.DeserializeBinary``1(System.String)">
+            <summary>
+                A string extension method that deserialize a string binary as &lt;T&gt;.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <returns>The deserialize binary as &lt;T&gt;</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.DeserializeBinary``1(System.String,System.Text.Encoding)">
+            <summary>
+                A string extension method that deserialize a string binary as &lt;T&gt;.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <param name="encoding">The encoding.</param>
+            <returns>The deserialize binary as &lt;T&gt;</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.DeserializeJson``1(System.String)">
+            <summary>
+                A string extension method that deserialize a Json string to object.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <returns>The object deserialized.</returns>
+        </member>
+        <member name="M:Plugins.Common.Helpers.SerializeHelper.DeserializeXml``1(System.String)">
+            <summary>
+                A string extension method that deserialize an Xml as &lt;T&gt;.
+            </summary>
+            <typeparam name="T">Generic type parameter.</typeparam>
+            <param name="this">The @this to act on.</param>
+            <returns>The deserialize Xml as &lt;T&gt;</returns>
+        </member>
+        <member name="P:Plugins.Common.Model.RuleModel.RuleCode">
+                     * A0001 工装未下压
+                       A0002 工装未复位
+                       A0003 Button工站指令超时
+                       A0004 LED工站指令超时
+                       A0005 触碰光栅
+                       A0006 急停
+                       A0007 产品断联
+        </member>
+        <member name="T:Plugins.Common.Model.RuleEnum">
+            <summary>
+            事件规则(提前在Andon系统中配置，后续有新加的在往后拓展)
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.RunProcess.Runner">
+            <summary>
+            可执行文件执行工具类
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.RunProcess.Runner.OutOfCapacityActions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.RunProcess.Runner.OutOfCapacityActions.DelHeadLine">
+            <summary>
+            删除头部的数据行
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.RunProcess.Runner.OutOfCapacityActions.DelSameLine">
+            <summary>
+            删除其中重复行，如果实际删除行数为0，则
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.#ctor(System.String,System.String)">
+            <summary>
+            构造方法，用于实例化一个Runner对象
+            </summary>
+            <param name="exeFile">可执行文件的名称（含路径）</param>
+            <param name="exeArgs">执行参数</param>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.#ctor(System.String,System.String,Plugins.Common.RunProcess.Runner.OutOfCapacityActions)">
+            <summary>
+            构造方法，用于实例化一个Runner对象
+            </summary>
+            <param name="exeFile">可执行文件的名称（含路径）</param>
+            <param name="exeArgs">执行参数</param>
+            <param name="outOfCapacityAction">清理数据的方式</param>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.StartForResult(System.Int32)">
+            <summary>
+            启动进程，并在启动的进程退出后返回其输出信息（包括错误输出和标准输出，按时序拼接后的结果）
+            </summary>
+            <param name="timeOut">进程执行的超时时间，单位毫秒</param>
+            <returns>超时或者调用程序失败返回null，否则返回进程的输出信息</returns>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.Input(System.String)">
+            <summary>
+            接收标准输入指令
+            </summary>
+            <param name="inputText">待输入的指令</param>
+            <returns>成功输出返回true，异常返回false，并使用Nlog记录异常信息</returns>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.Start(System.Threading.AutoResetEvent)">
+            <summary>
+            启动进程，并异步使用ReadReceivedData来读取结果
+            </summary>
+            <param name="dataReceivEvent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.ReadReceivedData">
+            <summary>
+            返回从进程启动开始后到调用时接收到的所有输出信息的字符串，包括Error和Out两种输出信息的
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.ClearData">
+            <summary>
+            清除已读取的进程输出的信息
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.Exited">
+            <summary>
+            查询进程是否已经退出
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.Runner.Close">
+            <summary>
+            关闭进程，释放资源
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.RunProcess.CRunExe.RunExe(System.String,System.String,System.Boolean,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="StartFileName"></param>
+            <param name="StartFileArg"></param>
+            <param name="ManulStop">默认是false,当是后台运行(BeginInvokeRunExe)时ManulStop=true(配合BManulEnd,bRcvEnd一起使用)</param>
+            <param name="timeout"></param>
+        </member>
+        <member name="F:Plugins.Common.ExceptionEnum.FixtureEX">
+            <summary>
+            工装异常
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.ExceptionEnum.WaitForDevicesEX">
+            <summary>
+            等待设备接入异常
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.ExceptionEnum.NoDeviceEX">
+            <summary>
+            controlbit断连异常
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.ExceptionEnum.CopyLogOutEX">
+            <summary>
+            CopyLogOut
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.PathUtil">
+            <summary>
+            路径处理工具类
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.PathUtil.GetRelativePath(System.String)">
+            <summary>
+            获取指定路径对应当前可执行程序的相对路径
+            </summary>
+            <param name="destPath">传入的绝对路径值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.PathUtil.GetAbsolutePath(System.String)">
+            <summary>
+            根据相对于当前可执行程序的相对路径，获取对应的绝对路径
+            </summary>
+            <param name="relativePath">相对路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.PathUtil.GetRelativePath(System.String,System.String)">
+            <summary>
+            获取destPath相对于destPath的相对路径
+            </summary>
+            <param name="sourcePath"></param>
+            <param name="destPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.Diagnostics.ProcessStartInfo,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Threading.CancellationToken,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="processStartInfo">The <see cref="T:System.Diagnostics.ProcessStartInfo" /> that contains the information that is used to start the process, including the file name and any command-line arguments.</param>
+            <param name="standardOutput">List that lines written to standard output by the process will be added to</param>
+            <param name="standardError">List that lines written to standard error by the process will be added to</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.String,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="fileName">An application or document which starts the process.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.String,System.Threading.CancellationToken,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="fileName">An application or document which starts the process.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.String,System.String,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="fileName">An application or document which starts the process.</param>
+            <param name="arguments">Command-line arguments to pass to the application when the process starts.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.String,System.String,System.Threading.CancellationToken,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="fileName">An application or document which starts the process.</param>
+            <param name="arguments">Command-line arguments to pass to the application when the process starts.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.Diagnostics.ProcessStartInfo,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="processStartInfo">The <see cref="T:System.Diagnostics.ProcessStartInfo" /> that contains the information that is used to start the process, including the file name and any command-line arguments.</param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Plugins.Common.TaskProcess.RunProcess.RunAsync(System.Diagnostics.ProcessStartInfo,System.Threading.CancellationToken,Rubik.Core.IExecutionContext)">
+            <summary>
+            Runs asynchronous process.
+            </summary>
+            <param name="processStartInfo">The <see cref="T:System.Diagnostics.ProcessStartInfo" /> that contains the information that is used to start the process, including the file name and any command-line arguments.</param>
+            <param name="cancellationToken">The token to monitor for cancellation requests.</param>
+            <param name="context"></param>
+        </member>
+        <member name="T:Plugins.Common.TaskProcess.ProcessResults">
+            <summary>
+            Contains information about process after it has exited.
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.Environment.UserDefaultUILanguage">
+            <summary>
+            用户缺省界面语言
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.Environment.UserDefaultLangID">
+            <summary>
+            用户缺省语言
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.Environment.SystemDefaultLangID">
+            <summary>
+            系统缺省语言
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.USB">
+            <summary>
+            将USB设备信息写入XML文件
+            </summary>
+            <summary>
+            USB设备枚举
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.EnumUsbToXML(System.String)">
+            <summary>
+            将USB设备枚举信息导出为XML文档
+            </summary>
+            <param name="xmlFileName">保存的XML文件名</param>
+            <returns>
+                true：成功
+                false：失败
+            </returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.AddHubNode(System.Xml.Linq.XElement,System.String,System.String)">
+            <summary>
+            增加集线器节点
+            </summary>
+            <param name="ParentNode">父节点</param>
+            <param name="HubPath">集线器路径</param>
+            <param name="HubNodeName"></param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.AddPortNode(System.Xml.Linq.XElement,Plugins.Common.SearchUSBInfo.UsbNodeConnectionInformation)">
+            <summary>
+            增加端口节点
+            </summary>
+            <param name="HubNode">集线器节点</param>
+            <param name="NodeConnectionInfo">USB设备节点连接信息</param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.AddDeviceDescriptorNode(System.Xml.Linq.XElement,Plugins.Common.SearchUSBInfo.UsbDeviceDescriptor@)">
+            <summary>
+            增加设备描述符节点
+            </summary>
+            <param name="PortNode"></param>
+            <param name="DeviceDescriptor"></param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.AddPipeInfoNode(System.Xml.Linq.XElement,System.Collections.Generic.List{Plugins.Common.SearchUSBInfo.UsbPipeInfo}@)">
+            <summary>
+            增加管道信息节点
+            </summary>
+            <param name="PortNode">端口节点</param>
+            <param name="PipeList">管道信息列表</param>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.USB.AllHostControllers">
+            <summary>
+            USB主控制器
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetHcdDriverKeyName(System.String)">
+            <summary>
+            获取驱动键名
+            </summary>
+            <param name="PNPDeviceID">USB主控制器设备ID</param>
+            <returns>获取设备驱动在注册表HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class下的路径</returns>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.USB.AllUsbHubs">
+            <summary>
+            USB Hub信息集合
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetUsbRootHubPath(System.String)">
+            <summary>
+            USB ROOT HUB设备路径
+            </summary>
+            <param name="PNPDeviceID">USB主控制器设备ID</param>
+            <returns>USB ROOT HUB设备路径</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetUsbHubName(System.String)">
+            <summary>
+            USB HUB设备名称
+            </summary>
+            <param name="DevicePath">设备路径</param>
+            <returns>设备名称</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetUsbNodeInformation(System.String)">
+            <summary>
+            获取USB HUB节点信息
+            </summary>
+            <param name="DevicePath">USB HUB设备路径</param>
+            <returns>节点信息</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetUsbNodeConnectionInformation(System.String,System.Int32)">
+            <summary>
+            获取USB节点连接信息
+            </summary>
+            <param name="DevicePath">设备路径</param>
+            <param name="NumberOfPorts">端口总数</param>
+            <returns>USB节点信息连接信息集合</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetStringDescriptor(System.IntPtr,System.Int32,System.Byte,System.UInt16)">
+            <summary>
+            获取字符串描述符
+            </summary>
+            <param name="hHubDevice">USB Hub设备句柄</param>
+            <param name="ConnectionIndex">连接索引号</param>
+            <param name="DescriptorIndex">描述符索引号</param>
+            <param name="LanguageID">语言ID</param>
+            <returns>字符串描述符</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.SelectLanguageID(System.IntPtr,System.Int32)">
+            <summary>
+            选择语言ID
+            </summary>
+            <param name="hHubDevice">USB Hub设备句柄</param>
+            <param name="ConnectionIndex">连接索引号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetExternalHubPath(System.String,System.Int32)">
+            <summary>
+            获取外接Hub设备路径
+            </summary>
+            <param name="ParentDevicePath">上层Hub设备路径</param>
+            <param name="ConnectionIndex">连接索引号</param>
+            <returns>外接Hub设备路径</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.GetExternalHubPath(System.IntPtr,System.Int32)">
+            <summary>
+            获取外接Hub设备路径
+            </summary>
+            <param name="hParentHubDevice">上层Hub设备句柄</param>
+            <param name="ConnectionIndex">连接索引号</param>
+            <returns>外接Hub设备路径</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB.BcdVersionToString(System.UInt16)">
+            <summary>
+            版本BCD编码转字符串
+            </summary>
+            <param name="bcd">版本BCD编码</param>
+            <returns>版本字符串</returns>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.Name">
+            <summary>
+            节点名称
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.Data">
+            <summary>
+            节点数据
+            </summary>
+        </member>
+        <member name="P:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.Children">
+            <summary>
+            子节点列表
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.ConnectedHubs">
+            <summary>
+            连接的外部Hub数目
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.ConnectedDevices">
+            <summary>
+            连接的USB设备数目
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.AllUsbDevices(System.String)">
+            <summary>
+            静态根节点
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.AddHubNode(System.String,System.String)">
+            <summary>
+            Hub节点
+            </summary>
+            <param name="HubPath">Hub路径</param>
+            <param name="DevName">节点显示名称</param>
+            <returns>Hub节点集合</returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.TreeViewUsbItem.AddPortNode(System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Port节点
+            </summary>
+            <param name="HubPath">Hub路径</param>
+            <param name="NumberOfPorts">端口数</param>
+            <param name="Str"></param>
+            <param name="HubIndex"></param>
+            <returns>Port节点集合</returns>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.USB_Dic">
+            <summary>
+            将USB设备信息写入XML文件
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB_Dic.EnumUsbToXML(System.String)">
+            <summary>
+            将USB设备枚举信息导出为XML文档
+            </summary>
+            <param name="xmlFileName">保存的XML文件名</param>
+            <returns>
+                true：成功
+                false：失败
+            </returns>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB_Dic.AddHubNode(System.Xml.Linq.XElement,System.String,System.String)">
+            <summary>
+            增加集线器节点
+            </summary>
+            <param name="ParentNode">父节点</param>
+            <param name="HubPath">集线器路径</param>
+            <param name="HubNodeName"></param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB_Dic.AddPortNode(Plugins.Common.SearchUSBInfo.UsbNodeConnectionInformation)">
+            <summary>
+            增加端口节点
+            </summary>
+            <param name="NodeConnectionInfo">USB设备节点连接信息</param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB_Dic.AddDeviceDescriptorNode(System.Xml.Linq.XElement,Plugins.Common.SearchUSBInfo.UsbDeviceDescriptor@)">
+            <summary>
+            增加设备描述符节点
+            </summary>
+            <param name="PortNode"></param>
+            <param name="DeviceDescriptor"></param>
+        </member>
+        <member name="M:Plugins.Common.SearchUSBInfo.USB_Dic.AddPipeInfoNode(System.Xml.Linq.XElement,System.Collections.Generic.List{Plugins.Common.SearchUSBInfo.UsbPipeInfo}@)">
+            <summary>
+            增加管道信息节点
+            </summary>
+            <param name="PortNode">端口节点</param>
+            <param name="PipeList">管道信息列表</param>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.HostControllerInfo">
+            <summary>
+            USB主控制器信息
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.UsbHubInfo">
+            <summary>
+            USB Hub信息
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.UsbNodeInformation">
+            <summary>
+            USB HUB节点信息
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.UsbDeviceDescriptor">
+            <summary>
+            USB设备描述符
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.UsbPipeInfo">
+            <summary>
+            USB管道信息
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.SearchUSBInfo.UsbNodeConnectionInformation">
+            <summary>
+            USB节点连接信息
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.SearchUSBInfo.Kernel32.INVALID_HANDLE_VALUE">
+            <summary>
+            无效的文件句柄
+            </summary>
+        </member>
+        <member name="T:Plugins.Common.Windows">
+            <summary>
+            Windows系统的系列方法
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.Windows.MessageBoxShow(System.Int32,System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)">
+            <summary>
+            显示固定时间的MessageBox
+            </summary>
+            <param name="iShowMillionseconds"></param>
+            <param name="strMessage"></param>
+            <param name="strCaption"></param>
+            <param name="msgbButton"></param>
+            <param name="msgbIcon"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Windows.timer_Elapsed(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            定时方法
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Plugins.Common.Windows.GetHardDiskID">
+            <summary>
+            获取硬盘SN  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.Windows.GetOsVersion">
+            <summary>
+            获取操作系统版本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugins.Common.WindowsServer">
+            <summary>
+            服务器信息
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.CpuId">
+            <summary>
+            CPUID
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.CpuCount">
+            <summary>
+            CPU插槽数
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.CpuMhz">
+            <summary>
+            CPU主频
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.MacAddress">
+            <summary>
+            mac地址
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.DiskId">
+            <summary>
+            硬盘ID
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.DiskSize">
+            <summary>
+            硬盘大小
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.IpAddress">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.LoginUserName">
+            <summary>
+            系统当前登录用户
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.ComputerName">
+            <summary>
+            计算机名
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.SystemType">
+            <summary>
+            操作系统架构
+            </summary>
+        </member>
+        <member name="F:Plugins.Common.WindowsServer.TotalPhysicalMemory">
+            <summary>
+            物理内存，单位MB
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.WindowsServer.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Plugins.Common.WindowsServer.GetSizeOfDisk">
+            <summary>
+            获取磁盘大小
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Plugins.Common.WindowsServer.GetUserName">
+               <summary>
+              操作系统的登录用户名
+               </summary>
+               <returns>  </returns>
+        </member>
+        <member name="F:Plugin.IT.MES.ErectMesView.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Plugin.IT.MES.ErectMesView.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Plugin.IT.MES.ErectMesView.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Plugin.IT.MES.MesView.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Plugin.IT.MES.MesView.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Plugin.IT.MES.MesView.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+    </members>
+</doc>
